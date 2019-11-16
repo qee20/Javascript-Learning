@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+<head>
+<meta charset = "UTF-8">
+<title>Color JS</title>
+<style>
+    .btn{
+        border: 3px solid black;
+        border-radius: 50px;
+        padding: .5em 1em .5em 1em;
+    }
+</style>
+<?php
+echo "I love PHP!";
+?>
+</head>
+<body>
+    <h1>Click Button to change Background Color</h1>
+    <br>
+    <input type="button" value="Blue" class="btn" onclick="changecolor('Blue')">
+    <input type="button" value="Yellow" class="btn" onclick="changecolor('Yellow')">
+    <input type="button" value="Green" class="btn" onclick="changecolor('Green')">
+    <input type="button" value="Red" class="btn" onclick="changecolor('Red')">
+    <input type="button" value="Black" class="btn" onclick="changecolor('Black')">
+    <input type="button" value="White" class="btn" onclick="changecolor('White')">
+    <input type="button" value="Pink" class="btn" onclick="changecolor('Pink')">
+    <input type="button" value="Violet" class="btn" onclick="changecolor('Violet')">
+    <input type="button" value="Gray" class="btn" onclick="changecolor('Gray')">
+    <input type="button" value="Purple" class="btn" onclick="changecolor('Purple')">
+    <input type="button" value="Brown" class="btn" onclick="changecolor('Brown')">
+    <input type="button" value="Orange" class="btn" onclick="changecolor('Orange')">
+    <script>
+      function changecolor(color){
+          document.body.style.backgroundColor=color;
+      }
+    </script>
+  
+</body>
+</html>
